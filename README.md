@@ -24,6 +24,8 @@ var ll = require('lazyLog');
 
 ```
 ll.log('This is a simple log');
+ll.log({foo: 'bar'});
+ll.log(['Test', 'baz', {foo: 'bar'}]);
 
 This is a simple log
 ```
@@ -78,6 +80,25 @@ test
 make lower
 TEST
 AAA
+```
+
+```
+ll.toArr(['Test', {a: 'b', foo: 'bar'}, {c: ['NEWS', {test: 'apple'}]}]);
+
+[ 'Test', 'b', 'bar', 'NEWS', 'apple' ]
+```
+
+```
+ll.reg('This is my message that I am looking for the word "message"', /message/i);
+ll.reg('This is my message that I am looking for the word "message"', /message/g);
+ll.reg({test: 'message', b: 'this is a message - message'}, /message/g);
+
+[ 'message',
+  index: 11,
+  input: 'This is my message that I am looking for the word "message"' ]
+[ 'message', 'message' ]
+[ 'message' ]
+[ 'message', 'message' ]
 ```
 
 ### To the Community
