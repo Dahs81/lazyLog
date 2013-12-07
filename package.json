@@ -1,6 +1,6 @@
 {
     "author": "Shad Beard",
-    "name": "lazyLog",
+    "name": "lazy-log",
     "description": "A fun way to log stuff",
     "version": "0.0.1",
     "scripts": {
