@@ -2,7 +2,7 @@
     "author": "Shad Beard",
     "name": "lazy-log",
     "description": "A fun way to log stuff",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "scripts": {
         "test": "echo \"To run the test enter: \"node test.js\" on the command line.\" && exit 1"
     },
