@@ -1,25 +1,25 @@
 {
-    "author": "Shad Beard",
-    "name": "lazy-log",
-    "description": "A fun way to log stuff",
-    "version": "0.0.3",
-    "scripts": {
-        "test": "echo \"To run the test enter: \"node test.js\" on the command line.\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Dahs81/lazyLog.git"
-    },
-    "main": "./index.js",
-    "dependencies": {},
-    "devDependencies": {},
-    "optionalDependencies": {},
-    "keywords": [
-        "lazyLog",
-        "log",
-        "fun",
-        "chainable"
-    ],
-    "license": "MIT",
-    "readmeFilename": "README.md"
+  "author": "Shad Beard",
+  "name": "lazy-log",
+  "description": "A fun way to log stuff",
+  "version": "0.0.4",
+  "scripts": {
+    "test": "echo \"To run the test enter: \"node test.js\" on the command line.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dahs81/lazyLog.git"
+  },
+  "main": "./index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "keywords": [
+    "lazyLog",
+    "log",
+    "fun",
+    "chainable"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md"
 }
