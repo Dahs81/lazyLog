@@ -1,9 +1,11 @@
 # Lazy Log
 
+## A fun logger
+
 This module is a wrapper around console.log.
-The available functions all use a chainable syntax.
-If a string is passed to one of the functions, it will log out the transformed string.
-If an object is passed to one of the functions, it will log out all of the values and transform each one.  The key is not currently logged.
+~ The available functions all use a **chainable** syntax.
+~ If a string is passed to one of the functions, it will log out the transformed string.
+~ If an object is passed to one of the functions, it will log out all of the values and transform each one.  The key is not currently logged.
 if an array is passed to one of the functions, it will loop over the array and either log the string or act on it in the manner mentioned above if it is an object.
 
 ### Installation and Setup
@@ -75,3 +77,7 @@ make lower
 TEST
 AAA
 ```
+
+### To the Community
+I will probably be adding some more functions some, but adding new functionality is super easy.  Check out the code, do pull requests, and let me know if you have any questions.
+
