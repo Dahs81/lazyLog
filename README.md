@@ -13,7 +13,7 @@ if an array is passed to one of the functions, it will loop over the array and e
 ### Installation and Setup
 
 ```
-npm install lazyLog
+npm install lazy-log
 ```
 
 ```
