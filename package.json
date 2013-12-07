@@ -7,6 +7,7 @@
         "test": "echo \"To run the test enter: \"node test.js\" on the command line.\" && exit 1"
     },
     "repository": {
+        "type": "git",
         "url": ""
     },
     "main": "./index.js",
