@@ -1,5 +1,7 @@
 # Lazy Log
 
+A simple wrapper for console.log that does some fun stuff.
+
 ## A fun logger
 
 This module is a wrapper around console.log.
@@ -80,4 +82,3 @@ AAA
 
 ### To the Community
 I will probably be adding some more functions some, but adding new functionality is super easy.  Check out the code, do pull requests, and let me know if you have any questions.
-
