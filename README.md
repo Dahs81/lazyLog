@@ -29,7 +29,7 @@ ll.log(['Test', 'baz', {foo: 'bar'}]);
 ```
 
 #### Results
-This is a simple log
++ This is a simple log
 
 ```javascript
 // Simple examples of other log functions
@@ -39,11 +39,11 @@ ll.toLower(['ONE', 'TWO', 'THREE']);
 ```
 
 #### Results
-test
-john doe
-one
-two
-three
++ test
++ john doe
++ one
++ two
++ three
 ```
 
 ```javascript
@@ -53,30 +53,30 @@ ll.toUpper(['one', 'two', 'three']);
 ```
 
 #### Results
-TEST
-JOHN DOE
-ONE
-TWO
-THREE
++ TEST
++ JOHN DOE
++ ONE
++ TWO
++ THREE
 
 ```javascript
 ll.log('test simple').toLower('TEST').toUpper('test');
 ```
 
 #### Results
-test simple
-test
-TEST
++ test simple
++ test
++ TEST
 
 ```javascript
 ll.toLower(['TEST', {a: 'MAKE LOWER'}, [{a:'AAA', b: ['BBB', {c: 'CCC'}]}]]);
 
 #### Results
-test
-make lower
-aaa
-bbb
-ccc
++ test
++ make lower
++ aaa
++ bbb
++ ccc
 ```
 
 ```javascript
@@ -84,17 +84,17 @@ ll.toLower(['TEST', {a: 'MAKE LOWER'}]).toUpper('test').toUpper([{a: 'aaa'}]);
 ```
 
 #### Results
-test
-make lower
-TEST
-AAA
++ test
++ make lower
++ TEST
++ AAA
 
 ```javascript
 ll.toArr(['Test', {a: 'b', foo: 'bar'}, {c: ['NEWS', {test: 'apple'}]}]);
 ```
 
 #### Results
-[ 'Test', 'b', 'bar', 'NEWS', 'apple' ]
++ [ 'Test', 'b', 'bar', 'NEWS', 'apple' ]
 
 ```javascript
 ll.reg('This is my message that I am looking for the word "message"', /message/i);
@@ -103,12 +103,12 @@ ll.reg({test: 'message', b: 'this is a message - message'}, /message/g);
 ```
 
 #### Results
-[ 'message',
++ [ 'message',
   index: 11,
   input: 'This is my message that I am looking for the word "message"' ]
-[ 'message', 'message' ]
-[ 'message' ]
-[ 'message', 'message' ]
++ [ 'message', 'message' ]
++ [ 'message' ]
++ [ 'message', 'message' ]
 
 
 ### To the Community
