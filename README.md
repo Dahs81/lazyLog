@@ -17,7 +17,7 @@ npm install lazy-log
 ```
 
 ```javascript
-var ll = require('lazyLog');
+var ll = require('lazy-log');
 ```
 
 ### Examples
