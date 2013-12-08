@@ -4,10 +4,10 @@ A simple wrapper for console.log that does some fun stuff.
 
 ## A fun logger
 
-..* This module is a wrapper around console.log.
-..* The available functions all use a **chainable** syntax.
-..* If a string is passed to one of the functions, it will log out the transformed string.
-..* If an object is passed to one of the functions, it will log out all of the values and transform each one.  The key is not currently logged.
++ This module is a wrapper around console.log.
++ The available functions all use a **chainable** syntax.
++ If a string is passed to one of the functions, it will log out the transformed string.
++ If an object is passed to one of the functions, it will log out all of the values and transform each one.  The key is not currently logged.
 if an array is passed to one of the functions, it will loop over the array and either log the string or act on it in the manner mentioned above if it is an object.
 
 ### Installation and Setup
@@ -83,7 +83,7 @@ ccc
 ll.toLower(['TEST', {a: 'MAKE LOWER'}]).toUpper('test').toUpper([{a: 'aaa'}]);
 ```
 
-### Results
+#### Results
 test
 make lower
 TEST
@@ -100,6 +100,7 @@ ll.toArr(['Test', {a: 'b', foo: 'bar'}, {c: ['NEWS', {test: 'apple'}]}]);
 ll.reg('This is my message that I am looking for the word "message"', /message/i);
 ll.reg('This is my message that I am looking for the word "message"', /message/g);
 ll.reg({test: 'message', b: 'this is a message - message'}, /message/g);
+```
 
 #### Results
 [ 'message',
