@@ -100,7 +100,6 @@ ll.toArr(['Test', {a: 'b', foo: 'bar'}, {c: ['NEWS', {test: 'apple'}]}]);
 ll.reg('This is my message that I am looking for the word "message"', /message/i);
 ll.reg('This is my message that I am looking for the word "message"', /message/g);
 ll.reg({test: 'message', b: 'this is a message - message'}, /message/g);
-```
 
 #### Results
 [ 'message',
